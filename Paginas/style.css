@@ -82,6 +82,19 @@ header {
   text-align: center;
   flex-wrap: wrap;
 }
+.tarjeta-nuevoingreso:hover div {
+  transition-delay: 20seg;
+  transform: skewY(30deg);
+  background-color: red;
+}
+.menuprincipal ul :hover {
+  background-color: red;
+  height: 80px;
+}
+
+.animate__animated.animate__heartBeat {
+  animation-duration: 50s;
+}
 
 .tarjeta-nuevoingreso div {
   display: inline;
