@@ -266,6 +266,9 @@ footer {
   height: 100%;
   text-align: center;
   align-items: center;
+  clear: both;
+  padding: 0;
+  margin: 0;
 }
 .imagenes-contacto {
   grid-area: imagenes-contacto;
@@ -369,6 +372,11 @@ section.formulario-contacto {
   padding: 10px;
   z-index: 2;
   font-size: 30px;
+}
+.imagen-parrafo {
+  background-image: url(../imagenes/horarios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .imagen-cocina {
